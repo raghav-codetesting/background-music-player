@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music player</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background"></div>
+
+    <div class="text-container">
+        <h1>Background Music Player</h1>
+        <p id="geo-coordinates">Fetching location...</p>
+        <p id="song-title">Loading song...</p>
+        <p>i would have added more stuff, but we can't use django with github pages</p>
+    </div>
+
+    <canvas id="line-art"></canvas>
+    <canvas id="particles"></canvas>
+
+    <!-- 🎵 Local Audio Player -->
+    <div class="music-container">
+        <button id="prev-song">⏮</button>
+        <button id="music-toggle">⏸</button>
+        <button id="next-song">⏭</button>
+    </div>
+    <audio id="audio-player" preload="auto"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
