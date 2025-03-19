@@ -15,4 +15,7 @@ This is a little music player I made that was inspired by the music video, [dull
 
 This is one of my college's activities. It is basic, but it's mine.
 
+Pages Link:
+https://raghav-codetesting.github.io/background-music-player/
+
 </footer>
