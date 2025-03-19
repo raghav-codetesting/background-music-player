@@ -1,4 +1,4 @@
-// 🎨 Canvas Setup
+// Canvas Setup
 const canvas = document.getElementById("line-art");
 const ctx = canvas.getContext("2d");
 const particlesCanvas = document.getElementById("particles");
@@ -10,7 +10,7 @@ canvas.height = window.innerHeight;
 particlesCanvas.width = window.innerWidth;
 particlesCanvas.height = window.innerHeight;
 
-// 🎨 Function to generate random positions
+// Function to generate random positions
 function getRandomPosition() {
     return {
         x: Math.random() * (canvas.width - 200) + 100,
@@ -231,7 +231,7 @@ musicToggle.addEventListener("click", () => {
     isPlaying = !isPlaying;
 });
 
-// ⏭ Play Next Song
+// Play Next Song
 function playNextSong() {
     audioPlayer.pause();
     audioPlayer.currentTime = 0;
@@ -270,7 +270,7 @@ audioPlayer.addEventListener("ended", playNextSong);
 audioPrev.addEventListener("click", playPrevSong);
 updateSongTitle();
 
-// 🎨 Particle Animation
+// Particle Animation
 class Particle {
     constructor() {
         this.x = Math.random() * particlesCanvas.width;
